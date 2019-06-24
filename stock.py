@@ -33,8 +33,8 @@ def get_max_stock_price(stock_id):
                 print("Ending...")
                 break
             countererror = countererror +1
-        for i in range(300):
-            time.sleep(300)
+        
+        time.sleep(300)
 
 if __name__ == '__main__':
     get_max_stock_price(sys.argv[1])
